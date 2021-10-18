@@ -4,14 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./descuentos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Porcentajes y Descuentos</title>
 </head>
 <body>
-    <h1>Porcentajes y Descuentos</h1>
+    <header>
+        <div>
+            <img src="./assets/icons/porcentaje.png" alt="">
+            <h1>Porcentajes y Descuentos</h1>
+        </div>
+    </header>
+    <main>
+        <section class="section-des">
+            <h2>Calcula el Precio a Pagar de tus productos con Descuentos</h2>
+    
+            <form action="" class="form">
+                <div class="labels precio">
+                    <label for="inputPrice">Escribe el Precio de tu producto</label>
+                    <input id="inputPrice" type="number">
+                </div>
+    
+                <div class="labels descuento">
+                    <label for="inputDiscount">Escribe el Descuento</label>
+                    <input id="inputDiscount" type="number">
+                </div>
+    
+                <div class="boton">
+                    <button type="button" onclick="onClickPro()">Calcular el precio a Pagar</button>
+                    <p>Tu Precio aparecera Aqui abajo</p>
+                </div>
+    
+                <div class="calcular">
+                    <p id="PriceP"></p>
+                </div>
+            </form>
+        </section>
+    </main>
 
     <script src="./descuentos.js"></script>
 </body>
