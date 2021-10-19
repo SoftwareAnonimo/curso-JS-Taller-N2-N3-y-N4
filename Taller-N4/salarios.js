@@ -1,100 +1,100 @@
-const perú = [];
-perú.push({
+const peru = [];
+peru.push({
     name: "Juan",
     salary: 1000,
 });
 
-perú.push({
+peru.push({
     name: "Lucas",
     salary: 1500,
 });
 
-perú.push({
+peru.push({
     name: "Jose",
     salary: 1450,
 });
 
-perú.push({
+peru.push({
     name: "Paolo",
     salary: 1100,
 });
 
-perú.push({
+peru.push({
     name: "Arturo",
     salary: 1200,
 });
 
-perú.push({
+peru.push({
     name: "Ana",
     salary: 1250,
 });
 
-perú.push({
+peru.push({
     name: "Camila",
     salary: 1050,
 });
 
-perú.push({
+peru.push({
     name: "Luisa",
     salary: 950,
 });
 
-perú.push({
+peru.push({
     name: "Alicia",
     salary: 1800,
 });
 
-perú.push({
+peru.push({
     name: "Mike",
     salary: 2000,
 });
 
-perú.push({
+peru.push({
     name: "Alfredo",
     salary: 1550,
 });
 
-perú.push({
+peru.push({
     name: "Samuel",
     salary: 2000,
 });
 
-perú.push({
+peru.push({
     name: "Alejandro",
     salary: 1200,
 });
 
-perú.push({
+peru.push({
     name: "Alberto",
     salary: 950,
 });
 
-perú.push({
+peru.push({
     name: "Liam",
     salary: 1000,
 });
 
-perú.push({
+peru.push({
     name: "Jino",
     salary: 1300,
 });
 
-perú.push({
+peru.push({
     name: "Martin",
     salary: 1350,
 });
 
-perú.push({
+peru.push({
     name: "Fernanda",
     salary: 1400,
 });
 
-perú.push({
+peru.push({
     name: "Violeta",
     salary: 990,
 });
 
-perú.push({
+peru.push({
     name: "Veky",
     salary: 1700,
 });
